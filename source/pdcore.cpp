@@ -1,5 +1,3 @@
 #include "pdcore.h"
+#include <iostream>
 
-int libFunc(){
-    return 23;
-}

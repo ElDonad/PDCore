@@ -1,1 +1,7 @@
+C:\devkitPro\devkitARM\arm-none-eabi\include
+C:\devkitPro\libnds\include
 .
+source
+include
+include/save
+include/utils
