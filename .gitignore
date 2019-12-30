@@ -1,0 +1,11 @@
+*.o
+*.creator
+*.user
+*.files
+*.includes
+*.cflag
+*.cxxflags
+
+lib/*
+build/*
+buildTest/*
