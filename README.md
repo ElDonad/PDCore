@@ -9,4 +9,6 @@ The "client" meant to run on the nintendo DS, as well as the test client, will b
 
 One of my **long term** objective is to implement modding through a LUA api, then exploit the networking capabilities of the NDS to serve the mods to users through the internet.
 
-That being said, I work on this project during my (very sparse) free time and I'm a self-taught C++ programmer, so don't expect high quality coding nor rapid extension.
+That being said, I work on this project during my (very sparse) free time and I'm a self-taught C++ programmer, so don't expect high quality coding nor rapid extension of the codebase.
+
+Advices and pull requests are however welcome. Don't hesitate to get in touch with me if you are any question related to the project ^^ (elie.donadio@gmail.com)
