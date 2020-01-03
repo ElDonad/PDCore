@@ -36,7 +36,12 @@ public:
 
 };
 
+
 }
+
+#include "impl/coord.tpp"
+
+#define Coord8 PDCore::Utils::Coord<uint8_t>
 
 #endif //COORD_H
 

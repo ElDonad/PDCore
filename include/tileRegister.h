@@ -19,8 +19,6 @@ private:
     static unsigned int nextId;
 };
 
-TileRegister::nextId = 0;
-
 }
 
 #endif // TILEREGISTER_H

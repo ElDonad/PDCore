@@ -9,7 +9,9 @@ namespace PDCore {
  * If such a  behaviour is needed, the tile need to be inherited in the tile array.
  */
 class Tile{
+public:
     Tile(unsigned int tileId, unsigned int type);
+    Tile(const Tile&);
     unsigned int getType();
     unsigned int getId();
 

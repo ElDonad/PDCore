@@ -10,4 +10,8 @@ unsigned int Tile::getType(){
     return type;
 }
 
+Tile::Tile(unsigned int tileId, unsigned int type) : tileId{tileId}, type{type} {};
+
+Tile::Tile(const Tile& other) : tileId{other.tileId}, type{other.type} {}
+
 }

@@ -2,17 +2,15 @@
 
 namespace PDCore {
 
-
-
-Depth createDepth(unsigned int level){
-    auto depth = Depth();
-    depth.level = level;
-
-    return depth;
+Depth::Depth(){
 }
 
 unsigned int Depth::getLevel(){
     return level;
+}
+
+Tile Depth::getTile(Coord8 coord){
+    return backgroundLayer->operator[](coord.x + coord.y * DEPTH_WIDTH);
 }
 
 }

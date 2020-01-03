@@ -5,7 +5,9 @@
 *.includes
 *.cflag
 *.cxxflags
+*.autosave
 
 lib/*
 build/*
 buildTest/*
+PDCore.includes

@@ -2,6 +2,8 @@
 
 namespace PDCore {
 
+unsigned int TileRegister::nextId = 0;
+
 std::optional<std::shared_ptr<TileType>> TileRegister::getTileType(unsigned int tileTypeId){
     auto type = types.find(tileTypeId);
     if (type == types.end()) return std::nullopt;
